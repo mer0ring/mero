@@ -1,0 +1,55 @@
+package Manager;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import VO.InterfaceClass;
+import VO.Pet;
+
+public class ManagerClass implements InterfaceClass {
+
+	@Override
+	public boolean register(Pet pet) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Pet search(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean delete(String name) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean modify(Pet pet) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void saveFile() throws IOException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void loadFile() throws IOException, FileNotFoundException, ClassNotFoundException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public ArrayList<Pet> allPrint() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}
